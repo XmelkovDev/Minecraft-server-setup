@@ -1,16 +1,22 @@
-# Minecraft-server-setup
-My scripts and configs for Minecraft server management.
-## Setup
-1. Place server.jar in the same folder as start.sh.
-2. Run ./start.sh (Linux) or java -Xmx2G -jar server.jar nogui (Windows).
-3. Configure server.properties as needed.
+# Minecraft Server Auto-Setup Tool
 
-## Plugins used
-- EssentialsX
-- WorldGuard
-- LuckPerms
-- CoreProtect
-- Vault
+Open Source project: Automated deployment system for Minecraft Paper servers on Linux VPS.
 
-## Purpose
-This repository contains my configuration files for a non-profit Minecraft server. I use this setup to learn server administration and DevOps.
+## What I'm developing
+This is my open-source project that automates the entire process of setting up a Minecraft server from scratch. Instead of manually installing Java, downloading server files, and configuring properties, my script does everything in one command.
+
+## How it works
+- One-command installation of Paper Minecraft server
+- Automatic configuration of server.properties
+- Built-in backup system with rotation
+- Easy plugin management structure
+
+## Why Open Source
+I believe in making server administration accessible to everyone. This project helps other server owners save time and avoid common mistakes.
+
+## My development work
+- I wrote the install.sh script from scratch
+- I created the backup automation system
+- I documented the entire setup process for other developers
+
+Project repository: https://github.com/XmekovDev/Minecraft-server-setup
